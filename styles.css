@@ -5,57 +5,65 @@ body{
 }
 
 header{
+    padding-bottom: 20px;
     font-style: italic;
-    color: rgb(255, 51, 0);
-    padding-bo: 10px;
-}   
-
-.product-subtitle {
-    font-size: 20px;
-    color: rgb(77, 76, 76);
-}
+    color: rgb(255, 51, 0)
+}    
 
 .hero-image {
     max-width: 100%;
     border-radius: 12px;
-    margin-bottom: 20px
-}
-
-.hero-text {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  /* Estil del text sobre la imatge */
+  .hero-text {
     position: absolute;
-    bottom: 200px;
-    left: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-product-description {
-    font-size: 0.9rem;
-    color: #ccc;
-    margin: bottom 20px;
-}
-
-.cta-button{
-    background-color: aqua;
-    color:rgb(255, 255, 255);
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover{
-    background-color: #218838;
-}
-
-.main-footer {
-    background-color: grey;
-    padding: 20px 40px;
-    text-align: center;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: rgba(0, 0, 0, 0.6); /* negre amb transparència */
     color: white;
-}
-
-.main-footer:hover{
-    color: #ccc
-}
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Estil de la descripció */
+  .product-description {
+    font-size: 0.9rem;
+    color: #868484; /* gris clar */
+    margin-bottom: 1rem;
+  }
+  
+  /* Estil del botó de crida a l'acció */
+  .cta-button {
+    background-color: #007BFF; /* blau vibrant */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* blau més fosc al passar el ratolí */
+  }
+  
+  /* Estil del peu de pàgina */
+  .main-footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .main-footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .main-footer a:hover {
+    color: #00bcd4; /* color de canvi en passar el ratolí */
+  }
